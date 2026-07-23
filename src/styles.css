@@ -15,7 +15,7 @@ body {
 	border-radius: 6px;
 	padding: 0 16px;
 	background: var(--semantic-colors-fill-accentStrong);
-	color: var(--semantic-colors-text-strong);
+	color: var(--semantic-colors-text-strongInverse);
 	font: inherit;
 	font-weight: 650;
 	cursor: pointer;
@@ -28,16 +28,6 @@ body {
 .button:focus-visible {
 	outline: 3px solid var(--semantic-colors-border-focused);
 	outline-offset: 2px;
-}
-
-.button--secondary {
-	border-color: var(--semantic-colors-border-strong);
-	background: transparent;
-	color: var(--semantic-colors-text-strong);
-}
-
-.button--secondary:hover {
-	background: var(--semantic-colors-fill-weakHover);
 }
 
 @media (max-width: 520px) {
