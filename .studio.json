@@ -1,10 +1,10 @@
 {
-	"$schema": "https://tokens.studio/schema/cli",
-	"dependencies": {
-		"core": {
-			"project": "55665626-44b2-4c69-9b97-825547f29e1f",
-			"ref": { "type": "branch", "name": "main" },
-			"output": "tokens"
-		}
-	}
+  "$schema": "https://tokens.studio/schema/cli",
+  "dependencies": {
+    "core": {
+      "project": "55665626-44b2-4c69-9b97-825547f29e1f",
+      "ref": { "type": "branch", "name": "main" },
+      "output": "tokens"
+    }
+  }
 }
