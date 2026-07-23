@@ -50,6 +50,10 @@
           "$value": "{base.colors.neutral.0}",
           "$type": "color"
         },
+        "success": {
+          "$value": "{base.colors.green.800}",
+          "$type": "color"
+        },
         "successInverse": {
           "$value": "{base.colors.green.200}",
           "$type": "color"
