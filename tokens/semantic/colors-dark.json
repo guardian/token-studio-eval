@@ -1,9 +1,36 @@
 {
   "semantic": {
     "colors": {
+      "bg": {
+        "base": {
+          "$value": "{base.colors.neutral.100}",
+          "$type": "color",
+          "$description": "this should be the primary background colour for most applications"
+        }
+      },
+      "border": {
+        "accent": {
+          "$value": "{base.colors.blue.800}",
+          "$type": "color"
+        },
+        "focused": {
+          "$value": "{base.colors.cyan.600}",
+          "$type": "color"
+        }
+      },
+      "fill": {
+        "accentStrong": {
+          "$value": "{base.colors.blue.800}",
+          "$type": "color"
+        },
+        "accentStrongHover": {
+          "$value": "{base.colors.blue.900}",
+          "$type": "color"
+        }
+      },
       "text": {
         "strong": {
-          "$value": "{base.colors.blue.900}",
+          "$value": "{base.colors.neutral.900}",
           "$type": "color",
           "$extensions": {
             "com.figma": {
@@ -14,6 +41,18 @@
               "hiddenFromPublishing": false
             }
           }
+        },
+        "strongInverse": {
+          "$value": "{base.colors.neutral.300}",
+          "$type": "color"
+        },
+        "strongerInverse": {
+          "$value": "{base.colors.neutral.100}",
+          "$type": "color"
+        },
+        "successInverse": {
+          "$value": "{base.colors.green.200}",
+          "$type": "color"
         }
       }
     }
