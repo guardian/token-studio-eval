@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  id-token: write # Required for OIDC authentication
   contents: write # Required to commit token files
 
 jobs:
   sync-tokens:
     runs-on: ubuntu-latest
-
+    env:
+      STUDIO_SERVICE_TOKEN: ${{ secrets.STUDIO_SERVICE_TOKEN }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,10 +42,6 @@ jobs:
 
       - name: Pull tokens from Studio
         run: studio tokens pull --ci
-        # The --ci flag uses OIDC authentication automatically.
-        # GitHub provides ACTIONS_ID_TOKEN_REQUEST_TOKEN and
-        # ACTIONS_ID_TOKEN_REQUEST_URL when id-token: write is set.
-
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
