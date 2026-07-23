@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "semantic/typography/SR",
+    "semantic/colors",
+    "semantic/typography/default",
+    "base/colors",
+    "semantic/colors-dark",
+    "component/colors",
+    "component/button",
+    "base/typography"
+  ]
+}

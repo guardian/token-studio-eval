@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Primitives",
+    "group": "Primitives",
+    "selectedTokenSets": {
+      "semantic/typography/SR": "disabled",
+      "semantic/colors": "disabled",
+      "semantic/typography/default": "disabled",
+      "base/colors": "enabled",
+      "semantic/colors-dark": "disabled",
+      "component/colors": "enabled",
+      "base/typography": "enabled"
+    }
+  },
+  {
+    "name": "Light",
+    "group": "ColorMode",
+    "selectedTokenSets": {
+      "semantic/colors": "enabled",
+      "base/colors": "source",
+      "semantic/colors-dark": "disabled",
+      "component/colors": "disabled"
+    }
+  },
+  {
+    "name": "Dark",
+    "group": "ColorMode",
+    "selectedTokenSets": {
+      "semantic/colors": "source",
+      "base/colors": "source",
+      "semantic/colors-dark": "enabled",
+      "component/colors": "disabled"
+    }
+  },
+  {
+    "name": "default",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "semantic/typography/SR": "disabled",
+      "semantic/colors": "disabled",
+      "semantic/typography/default": "enabled",
+      "base/colors": "disabled",
+      "semantic/colors-dark": "disabled",
+      "component/colors": "disabled",
+      "base/typography": "source"
+    }
+  },
+  {
+    "name": "SR",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "semantic/typography/SR": "enabled",
+      "semantic/colors": "disabled",
+      "semantic/typography/default": "disabled",
+      "base/colors": "disabled",
+      "semantic/colors-dark": "disabled",
+      "component/colors": "disabled",
+      "base/typography": "source"
+    }
+  }
+]

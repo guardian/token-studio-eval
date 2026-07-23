@@ -1,0 +1,13 @@
+{
+  "text": {
+    "$value": "{semantic.typography.bodyMd}",
+    "$type": "typography",
+    "$extensions": {
+      "com.figma": {
+        "scopes": [],
+        "codeSyntax": {},
+        "hiddenFromPublishing": false
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "semantic": {
+    "colors": {
+      "text": {
+        "strong": {
+          "$value": "{base.colors.blue.900}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {},
+              "hiddenFromPublishing": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

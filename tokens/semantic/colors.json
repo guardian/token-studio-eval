@@ -1,0 +1,343 @@
+{
+  "semantic": {
+    "colors": {
+      "bg": {
+        "base": {
+          "$value": "{base.colors.neutral.900}",
+          "$type": "color",
+          "$description": "this should be the primary background colour for most applications"
+        },
+        "baseInverse": {
+          "$value": "{base.colors.neutral.0}",
+          "$type": "color"
+        },
+        "raisedLevel1": {
+          "$value": "{base.colors.neutral.850}",
+          "$type": "color"
+        },
+        "raisedLevel1Inverse": {
+          "$value": "{base.colors.neutral.100}",
+          "$type": "color"
+        },
+        "raisedLevel2": {
+          "$value": "{base.colors.neutral.800}",
+          "$type": "color"
+        },
+        "raisedLevel2Inverse": {
+          "$value": "{base.colors.neutral.200}",
+          "$type": "color"
+        },
+        "raisedLevel3": {
+          "$value": "{base.colors.neutral.750}",
+          "$type": "color"
+        },
+        "raisedLevel3Inverse": {
+          "$value": "{base.colors.neutral.300}",
+          "$type": "color"
+        }
+      },
+      "border": {
+        "accent": {
+          "$value": "{base.colors.blue.200}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{base.colors.neutral.700}",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "{base.colors.red.300}",
+          "$type": "color"
+        },
+        "focused": {
+          "$value": "{base.colors.cyan.400}",
+          "$type": "color"
+        },
+        "selected": {
+          "$value": "{base.colors.cyan.400}",
+          "$type": "color"
+        },
+        "selectedInverse": {
+          "$value": "{base.colors.cyan.700}",
+          "$type": "color"
+        },
+        "strong": {
+          "$value": "{base.colors.neutral.400}",
+          "$type": "color"
+        },
+        "strongInverse": {
+          "$value": "{base.colors.neutral.900}",
+          "$type": "color"
+        },
+        "stronger": {
+          "$value": "{base.colors.neutral.200}",
+          "$type": "color"
+        },
+        "weak": {
+          "$value": "{base.colors.neutral.650}",
+          "$type": "color"
+        },
+        "weaker": {
+          "$value": "{base.colors.neutral.800}",
+          "$type": "color"
+        }
+      },
+      "fill": {
+        "accentStrong": {
+          "$value": "{base.colors.blue.200}",
+          "$type": "color"
+        },
+        "accentStrongHover": {
+          "$value": "{base.colors.blue.100}",
+          "$type": "color"
+        },
+        "accentStrongPressed": {
+          "$value": "{base.colors.blue.50}",
+          "$type": "color"
+        },
+        "blueWeak": {
+          "$value": "{base.colors.blue.800}",
+          "$type": "color"
+        },
+        "coolPurpleWeak": {
+          "$value": "{base.colors.coolPurple.800}",
+          "$type": "color"
+        },
+        "cyanWeak": {
+          "$value": "{base.colors.cyan.800}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{base.colors.neutral.700}",
+          "$type": "color"
+        },
+        "disabledInverse": {
+          "$value": "{base.colors.neutral.300}",
+          "$type": "color"
+        },
+        "draftStrong": {
+          "$value": "{base.colors.yellow.400}",
+          "$type": "color"
+        },
+        "errorStrong": {
+          "$value": "{base.colors.red.300}",
+          "$type": "color"
+        },
+        "errorWeak": {
+          "$value": "{base.colors.red.800}",
+          "$type": "color"
+        },
+        "errorWeaker": {
+          "$value": "{base.colors.red.900}",
+          "$type": "color"
+        },
+        "greenWeak": {
+          "$value": "{base.colors.green.800}",
+          "$type": "color"
+        },
+        "informationWeak": {
+          "$value": "{base.colors.blue.900}",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "{base.colors.cyan.200}",
+          "$type": "color"
+        },
+        "linkHover": {
+          "$value": "{base.colors.cyan.100}",
+          "$type": "color"
+        },
+        "linkPressed": {
+          "$value": "{base.colors.cyan.50}",
+          "$type": "color"
+        },
+        "liveWeak": {
+          "$value": "{base.colors.green.700}",
+          "$type": "color"
+        },
+        "magentaWeak": {
+          "$value": "{base.colors.magenta.800}",
+          "$type": "color"
+        },
+        "neutralWeak": {
+          "$value": "{base.colors.neutral.800}",
+          "$type": "color"
+        },
+        "orangeWeak": {
+          "$value": "{base.colors.orange.800}",
+          "$type": "color"
+        },
+        "redWeak": {
+          "$value": "{base.colors.red.800}",
+          "$type": "color"
+        },
+        "selected": {
+          "$value": "{base.colors.cyan.300}",
+          "$type": "color"
+        },
+        "selectedHoverWeak": {
+          "$value": "{base.colors.cyan.700}",
+          "$type": "color"
+        },
+        "selectedHoverWeaker": {
+          "$value": "{base.colors.cyan.800}",
+          "$type": "color"
+        },
+        "selectedPressedWeak": {
+          "$value": "{base.colors.cyan.600}",
+          "$type": "color"
+        },
+        "selectedPressedWeaker": {
+          "$value": "{base.colors.cyan.700}",
+          "$type": "color"
+        },
+        "selectedWeak": {
+          "$value": "{base.colors.cyan.800}",
+          "$type": "color"
+        },
+        "selectedWeaker": {
+          "$value": "{base.colors.cyan.900}",
+          "$type": "color"
+        },
+        "strong": {
+          "$value": "{base.colors.neutral.200}",
+          "$type": "color"
+        },
+        "strongHover": {
+          "$value": "{base.colors.neutral.100}",
+          "$type": "color"
+        },
+        "strongPressed": {
+          "$value": "{base.colors.neutral.50}",
+          "$type": "color"
+        },
+        "successStrong": {
+          "$value": "{base.colors.green.200}",
+          "$type": "color"
+        },
+        "successWeak": {
+          "$value": "{base.colors.green.800}",
+          "$type": "color"
+        },
+        "tealWeak": {
+          "$value": "{base.colors.teal.800}",
+          "$type": "color"
+        },
+        "warmPurpleWeak": {
+          "$value": "{base.colors.warmPurple.800}",
+          "$type": "color"
+        },
+        "warningWeak": {
+          "$value": "{base.colors.yellow.800}",
+          "$type": "color"
+        },
+        "weak": {
+          "$value": "{base.colors.neutral.900}",
+          "$type": "color"
+        },
+        "weakHover": {
+          "$value": "{base.colors.neutral.850}",
+          "$type": "color"
+        },
+        "weakPressed": {
+          "$value": "{base.colors.neutral.800}",
+          "$type": "color"
+        },
+        "yellowWeak": {
+          "$value": "{base.colors.yellow.800}",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "blue": {
+          "$value": "{base.colors.blue.100}",
+          "$type": "color"
+        },
+        "coolPurple": {
+          "$value": "{base.colors.coolPurple.100}",
+          "$type": "color"
+        },
+        "cyan": {
+          "$value": "{base.colors.cyan.100}",
+          "$type": "color"
+        },
+        "disabled": {
+          "$value": "{base.colors.neutral.500}",
+          "$type": "color"
+        },
+        "error": {
+          "$value": "{base.colors.red.200}",
+          "$type": "color"
+        },
+        "green": {
+          "$value": "{base.colors.green.100}",
+          "$type": "color"
+        },
+        "information": {
+          "$value": "{base.colors.cyan.100}",
+          "$type": "color"
+        },
+        "link": {
+          "$value": "{base.colors.cyan.200}",
+          "$type": "color"
+        },
+        "magenta": {
+          "$value": "{base.colors.magenta.100}",
+          "$type": "color"
+        },
+        "orange": {
+          "$value": "{base.colors.orange.100}",
+          "$type": "color"
+        },
+        "red": {
+          "$value": "{base.colors.red.100}",
+          "$type": "color"
+        },
+        "strong": {
+          "$value": "{base.colors.neutral.0}",
+          "$type": "color"
+        },
+        "strongInverse": {
+          "$value": "{base.colors.neutral.700}",
+          "$type": "color"
+        },
+        "strongerInverse": {
+          "$value": "{base.colors.neutral.900}",
+          "$type": "color"
+        },
+        "success": {
+          "$value": "{base.colors.green.200}",
+          "$type": "color"
+        },
+        "successInverse": {
+          "$value": "{base.colors.green.800}",
+          "$type": "color"
+        },
+        "teal": {
+          "$value": "{base.colors.teal.100}",
+          "$type": "color"
+        },
+        "warmPurple": {
+          "$value": "{base.colors.warmPurple.100}",
+          "$type": "color"
+        },
+        "warning": {
+          "$value": "{base.colors.yellow.50}",
+          "$type": "color"
+        },
+        "weak": {
+          "$value": "{base.colors.neutral.200}",
+          "$type": "color"
+        },
+        "weakInverse": {
+          "$value": "{base.colors.neutral.650}",
+          "$type": "color"
+        },
+        "yellow": {
+          "$value": "{base.colors.yellow.100}",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}
