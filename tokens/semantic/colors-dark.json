@@ -10,21 +10,21 @@
       },
       "border": {
         "accent": {
-          "$value": "{base.colors.blue.800}",
+          "$value": "{base.colors.red.800}",
           "$type": "color"
         },
         "focused": {
-          "$value": "{base.colors.cyan.600}",
+          "$value": "{base.colors.red.600}",
           "$type": "color"
         }
       },
       "fill": {
         "accentStrong": {
-          "$value": "{base.colors.blue.800}",
+          "$value": "{base.colors.red.800}",
           "$type": "color"
         },
         "accentStrongHover": {
-          "$value": "{base.colors.blue.900}",
+          "$value": "{base.colors.red.900}",
           "$type": "color"
         }
       },
@@ -47,7 +47,7 @@
           "$type": "color"
         },
         "strongerInverse": {
-          "$value": "{base.colors.neutral.100}",
+          "$value": "{base.colors.neutral.0}",
           "$type": "color"
         },
         "successInverse": {
