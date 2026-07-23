@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Install Tokens Studio CLI
-        run: npm install -g @tokens-studio/studio-cli
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Create config file
         run: |
@@ -41,7 +41,14 @@ jobs:
           EOF
 
       - name: Pull tokens from Studio
-        run: studio tokens pull --ci
+        run: pnpm dlx @tokens-studio/studio-cli tokens pull --ci
+
+      - name: Install Terrazzo dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build CSS tokens with Terrazzo
+        run: pnpm run build
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

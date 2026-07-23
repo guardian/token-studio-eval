@@ -1,0 +1,47 @@
+:root {
+	font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 24px;
+	background: var(--semantic-colors-bg-base);
+	color: var(--semantic-colors-text-strong);
+}
+
+.button {
+	min-height: 40px;
+	border: 1px solid var(--semantic-colors-border-accent);
+	border-radius: 6px;
+	padding: 0 16px;
+	background: var(--semantic-colors-fill-accentStrong);
+	color: var(--semantic-colors-text-strong);
+	font: inherit;
+	font-weight: 650;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: var(--semantic-colors-fill-accentStrongHover);
+}
+
+.button:focus-visible {
+	outline: 3px solid var(--semantic-colors-border-focused);
+	outline-offset: 2px;
+}
+
+.button--secondary {
+	border-color: var(--semantic-colors-border-strong);
+	background: transparent;
+	color: var(--semantic-colors-text-strong);
+}
+
+.button--secondary:hover {
+	background: var(--semantic-colors-fill-weakHover);
+}
+
+@media (max-width: 520px) {
+	body {
+		padding: 16px;
+	}
+}
